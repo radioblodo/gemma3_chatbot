@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Chatbot",
+      "request": "launch",
+      "mainClass": "com.example.Gemma3ChatBotApplication",
+      "vmArgs": "--module-path /path/to/javafx-sdk-17.0.2/lib --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
